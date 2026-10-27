@@ -1,0 +1,22 @@
+{
+  "name": "nexo-etapa-4-backend",
+  "version": "0.4.0",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/server.cjs",
+    "dev": "node --watch src/server.cjs",
+    "creator": "node scripts/promover-formador.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "helmet": "^8.3.0",
+    "express-rate-limit": "^8.7.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5"
+  }
+}

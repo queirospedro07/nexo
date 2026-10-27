@@ -1,0 +1,39 @@
+[
+  {
+    "id": "web",
+    "title": "Fundamentos de Desenvolvimento Web",
+    "theme": "Programação",
+    "difficulty": "Iniciante",
+    "description": "Estrutura páginas com HTML, aplica estilos com CSS e acrescenta interação com JavaScript.",
+    "content": "Uma página Web começa por uma estrutura HTML. O CSS define a apresentação e o JavaScript acrescenta comportamento. Cria um documento com cabeçalho, conteúdo principal e rodapé.",
+    "question": "Qual é a linguagem que estrutura uma página Web?",
+    "options": ["HTML", "CSS", "SQL"],
+    "correct": 0
+  },
+  {
+    "id": "javascript",
+    "title": "JavaScript na prática",
+    "theme": "Programação",
+    "difficulty": "Intermédio",
+    "description": "Aprende a trabalhar com funções, coleções e eventos através de exercícios práticos.",
+    "content": "Uma função agrupa instruções que podem ser reutilizadas. Os arrays permitem guardar coleções e o método map transforma cada elemento num novo valor.",
+    "question": "Qual é o método que transforma os elementos de um array?",
+    "options": ["push", "map", "pop"],
+    "correct": 1
+  },
+  {
+    "id": "interfaces",
+    "title": "Design de Interfaces",
+    "theme": "Design",
+    "difficulty": "Iniciante",
+    "description": "Organiza conteúdo, define uma hierarquia visual e desenha interfaces acessíveis.",
+    "content": "Uma boa hierarquia visual ajuda a distinguir títulos, conteúdo e ações. Contraste, espaçamento e rótulos claros tornam a interface mais fácil de utilizar.",
+    "question": "Qual destas práticas melhora a acessibilidade?",
+    "options": [
+      "Remover os rótulos",
+      "Reduzir o contraste",
+      "Identificar os campos dos formulários"
+    ],
+    "correct": 2
+  }
+]

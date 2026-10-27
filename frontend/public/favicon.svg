@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="nexo-grad-main" x1="12" y1="12" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="nexo-grad-light" x1="12" y1="14" x2="32" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bae6fd" />
+      <stop offset="60%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="nexo-grad-dark" x1="32" y1="36" x2="52" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="70%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="nexo-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#2563eb" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <g filter="url(#nexo-glow)">
+    <path d="M12 50V21.5L21.5 14V42.5L12 50Z" fill="url(#nexo-grad-main)" />
+    <path d="M12 21.5L21.5 14L30.5 21L21 28.5L12 21.5Z" fill="url(#nexo-grad-light)" />
+    <path d="M21 28.5L30.5 21L43 42.5L33.5 50L21 28.5Z" fill="url(#nexo-grad-main)" />
+    <path d="M42.5 21.5V50L33 42.5V14L42.5 21.5Z" fill="url(#nexo-grad-light)" />
+    <path d="M42.5 21.5L52 14V42.5L42.5 50V21.5Z" fill="url(#nexo-grad-dark)" />
+    <polygon points="31.8,29.5 36.5,35.5 31.8,41.5 27.1,35.5" fill="#38bdf8" opacity="0.85" />
+    <circle cx="31.8" cy="35.5" r="1.5" fill="#ffffff" />
+  </g>
+</svg>
